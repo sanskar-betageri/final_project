@@ -3,13 +3,6 @@
 
 This is a fully responsive personal portfolio website built with **HTML** and **CSS**. It features clean layouts, a modern hero banner, a responsive navigation bar, a project gallery, and a contact form. The styling adapts seamlessly across desktops, tablets, and mobile devices.
 
-## 📁 Project Structure
-├── index.html
-├── styles.css
-├── images/
-│ └── (hero image, project screenshots, etc.)
-└── README.md
-
 
 ## ✨ Features
 
