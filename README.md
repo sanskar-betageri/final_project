@@ -13,7 +13,7 @@ This is a fully responsive personal portfolio website built with **HTML** and **
 - Mobile-first design using media queries  
 - Smooth hover/focus states for buttons and links
 
-📱 Responsive Design
+## 📱 Responsive Design
 The layout automatically adapts to different screen sizes:
 
 💻 Desktop
@@ -22,7 +22,7 @@ The layout automatically adapts to different screen sizes:
 
 📊 Tablet
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 HTML5
 
@@ -30,10 +30,10 @@ CSS3 (Flexbox, Grid, Media Queries)
 
 Google Fonts: Roboto, Montserrat
 
-🙋‍♂️ Contact
-Feel free to reach out if you’d like to collaborate or need help!
+## Figma Design : https://www.figma.com/design/5gh8sOVk9Btho6WHm0m7gK/Final_Project?node-id=0-1&t=ovMrAGxjLN1cPPlJ-1
 
-Figma Design : https://www.figma.com/design/5gh8sOVk9Btho6WHm0m7gK/Final_Project?node-id=0-1&t=ovMrAGxjLN1cPPlJ-1
+## 🙋‍♂️ Contact
+Feel free to reach out if you’d like to collaborate or need help!
 
 📧 Email: sanskarbetageri52@gmail.com
 🔗 LinkedIn: https://www.linkedin.com/in/sanskar-betageri-ba3a3022a/
