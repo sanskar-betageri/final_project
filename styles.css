@@ -1,22 +1,28 @@
+/* Universal box-sizing to simplify layout handling */
 * {
   box-sizing: border-box;
 }
+
+/* Base styles for page */
 html, body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f4f4;
     color: #333;
     width: 100%;
     max-width: 100%;
-    margin: 0 ;
+    margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
+
+/* Header styling */
 header {
     background-color: #333;
     padding: 10px;
     color: #fff;
 }
 
+/* Navigation styling */
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -39,6 +45,8 @@ nav ul li a {
 nav ul li a:hover {
     color: #ff6347;
 }
+
+/* Section container styling */
 section {
     padding: 50px;
     margin: 20px 0;
@@ -46,16 +54,20 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Headings font and color */
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
     color: #333;
 }
 
+/* Paragraph text styling */
 p {
     font-size: 1rem;
     line-height: 1.6;
     color: #555;
 }
+
+/* Footer section styling */
 footer {
     background-color: #333;
     color: #fff;
@@ -63,18 +75,20 @@ footer {
     text-align: center;
 }
 
+/* Footer icon styles */
 footer a i {
     cursor: pointer;
     font-size: 2rem;
     color: #fff;
     margin: 0 10px;
-    text-decoration: none;
-    /* transition: color 0.3s ease; */
 }
 
+/* Footer icon hover effect */
 footer a i:hover {
     color: #ff6347;
 }
+
+/* Responsive adjustments for tablets and below */
 @media screen and (max-width: 768px) {
     nav ul {
         flex-direction: column;
@@ -105,6 +119,7 @@ footer a i:hover {
     }
 }
 
+/* Contact form container */
 form {
     display: flex;
     flex-direction: column;
@@ -116,11 +131,13 @@ form {
     border-radius: 8px;
 }
 
+/* Form label styling */
 label {
     font-size: 1rem;
     margin-bottom: 5px;
 }
 
+/* Inputs and textareas */
 input, textarea, button {
     padding: 10px;
     margin-bottom: 15px;
@@ -129,6 +146,7 @@ input, textarea, button {
     font-size: 1.1rem;
 }
 
+/* Form submit button */
 button {
     padding: 12px 24px;
     background-color: #333;
@@ -139,9 +157,20 @@ button {
     border-radius: 4px;
 }
 
+/* Button hover/focus/active states */
 button:hover {
     background-color: #ff6347;
 }
+
+button:active {
+    background-color: #e5533d;
+}
+
+button:focus {
+    outline: 3px solid #ff6347;
+}
+
+/* Link icon styling (outside footer) */
 a i {
     font-size: 2rem;
     color: #333;
@@ -151,21 +180,14 @@ a i {
 a i:hover {
     color: #ff6347;
 }
-button:hover {
-    background-color: #ff6347;
-}
 
-button:active {
-    background-color: #e5533d; /* Darker shade when clicked */
-}
-
-button:focus {
-    outline: 3px solid #ff6347; /* Focus outline for accessibility */
-}
+/* General anchor tag hover */
 a:hover {
     color: #ff6347;
     text-decoration: underline;
 }
+
+/* Project grid container */
 .project-gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -173,6 +195,7 @@ a:hover {
     padding: 20px;
 }
 
+/* Individual project card */
 .project {
     display: flex;
     flex-direction: column;
@@ -184,6 +207,7 @@ a:hover {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
 
+/* Project image styling */
 .project img {
     max-width: 100%;
     height: auto;
@@ -191,6 +215,8 @@ a:hover {
     margin-bottom: 10px;
     object-fit: cover;
 }
+
+/* Project button style */
 .project-button {
     display: inline-block;
     margin-top: 10px;
@@ -207,20 +233,23 @@ a:hover {
     background-color: #0e0200;
 }
 
+/* Hero banner layout */
 .hero-banner {
     position: relative;
     text-align: center;
     color: white;
     width: 100%;
-    overflow: hidden; /* prevents inner elements from causing horizontal scroll */
+    overflow: hidden; /* Prevents inner elements from causing horizontal scroll */
 }
 
+/* Hero image full-width */
 .hero-image {
     width: 100%;
     height: auto;
     display: block;
 }
 
+/* Hero text position and style */
 .hero-text {
     position: absolute;
     top: 85%;
@@ -230,7 +259,7 @@ a:hover {
     z-index: 1;
 }
 
-/* Button styling */
+/* Call-to-action button in hero section */
 .cta-button {
     display: inline-block;
     padding: 12px 25px;
@@ -246,7 +275,7 @@ a:hover {
     background-color: #140301;
 }
 
-/* Responsive Adjustments */
+/* Responsive tweaks for smaller screens */
 @media (max-width: 768px) {
     .hero-text {
         top: 85%;
@@ -268,8 +297,9 @@ a:hover {
         font-size: 0.85rem;
     }
 }
-section, header, footer, div {
-  max-width: 100vw;
-  overflow-x: hidden;
-}
 
+/* Prevent overflow from any major block section */
+section, header, footer, div {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
