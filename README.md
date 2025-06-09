@@ -30,7 +30,8 @@ CSS3 (Flexbox, Grid, Media Queries)
 
 Google Fonts: Roboto, Montserrat
 
-## Figma Design : https://www.figma.com/design/5gh8sOVk9Btho6WHm0m7gK/Final_Project?node-id=0-1&t=ovMrAGxjLN1cPPlJ-1
+## Figma Design :
+https://www.figma.com/design/5gh8sOVk9Btho6WHm0m7gK/Final_Project?node-id=0-1&t=ovMrAGxjLN1cPPlJ-1
 
 ## 🙋‍♂️ Contact
 Feel free to reach out if you’d like to collaborate or need help!
